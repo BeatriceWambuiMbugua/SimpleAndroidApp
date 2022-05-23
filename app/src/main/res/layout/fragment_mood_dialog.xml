@@ -5,6 +5,20 @@
     android:layout_height="match_parent"
     android:id="@+id/baseLayout">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/MoodLabel"
+        android:text="How are you feeling Today?"
+        android:textColor="@color/black"
+        android:typeface="monospace"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        />
+
 
 
 </LinearLayout>
